@@ -91,8 +91,9 @@ class BinaryTree{
             cout << ptr->info << " ";
         }
     }
+};
 
-    int main(){
+int main(){
         BinaryTree obj;
 
         while (true){
@@ -148,4 +149,3 @@ class BinaryTree{
         }
 
     }
-};
