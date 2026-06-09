@@ -106,7 +106,18 @@ class BinaryTree{
 
             char chr;
             cin >> chr;
+
             cout << endl;
+
+            switch (chr) {
+                case '1': {
+                    string element;
+                    cout << "Enter the element to be inserted: ";
+                    cin >> element;
+                    obj.insert(element);
+                    break;
+                }
+            }
 
         }
 
