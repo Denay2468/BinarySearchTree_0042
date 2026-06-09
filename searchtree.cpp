@@ -106,6 +106,7 @@ class BinaryTree{
 
             char chr;
             cin >> chr;
+            cout << endl;
 
         }
 
