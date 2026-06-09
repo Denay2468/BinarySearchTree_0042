@@ -117,6 +117,32 @@ class BinaryTree{
                     obj.insert(element);
                     break;
                 }
+                case '2': {
+                    cout << "Inorder Traversal: ";
+                    obj.inorder(obj.ROOT);
+                    cout << endl;
+                    break;
+                }
+                case '3': {
+                    cout << "Preorder Traversal: ";
+                    obj.preorder(obj.ROOT);
+                    cout << endl;
+                    break;
+                }
+                case '4': {
+                    cout << "Postorder Traversal: ";
+                    obj.postorder(obj.ROOT);
+                    cout << endl;
+                    break;
+                }
+                case '5': {
+                    cout << "Exiting the program. Goodbye!" << endl;
+                    return 0;
+                }
+                default: {
+                    cout << "Invalid choice. Please enter a number between 1 and 5." << endl;
+                    break;
+                }
             }
 
         }
