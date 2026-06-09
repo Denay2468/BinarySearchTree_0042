@@ -95,5 +95,9 @@ class BinaryTree{
     int main(){
         BinaryTree obj;
 
+        while (true){
+            
+        }
+
     }
 };
